@@ -1,0 +1,48 @@
+/* Global */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    background: #fff;
+}
+
+/* Posts */
+main {
+    height: inherit;
+    flex-direction: column;
+    display: flex;
+}
+
+main > div {
+    height: 100%;
+    padding: 0.75rem;
+    overflow-y: auto;
+}
+
+.post {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.post:hover {
+    background: #d9edff;
+    cursor: pointer;
+}
+
+/* Editor */
+footer {
+    padding: 0.75rem;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
